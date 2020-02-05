@@ -1,750 +1,447 @@
-/* le bloc */
+/*style.css*/
 
-/* le corps de la page html */
+     *
+    {
+     margin:0;
+     padding:0;
+    }
 
-*
-{
- margin:0;
- padding:0;
-}
+    body
+   {
+    background: #ffffff;
+    font-family: 'Asap', sans-serif;
+    color: #6F6B61;
+    width: 1280px;
+    height: 1280px;
+   }
 
-body
-
-{
-background: #ffffff;
-font-family: 'Asap', sans-serif;
-color: #6F6B61;
-width: 1280px;
-height: 1280px;
-}
-
-@font-face /* police et paragraphe */
-
-{
-font-family: 'Asap', sans-serif;
-}
-
-.Titre-bloc /* couleur du titre jaune sur fond gris */
-
-{
-background-color: #37474F;
-color: #FFCA28;
-padding: 15px 0px 15px 0px; /* espace en largeur et hauteur dans le contenu */
-margin-bottom: 18px;
-text-align: center;
-}
-
-
-
-/* les class du sidebar */
-
-.petite-photo /* hauteur et largeur de la photo */
-
-{
-height: 250px;
-width: 250px;
-margin: 40px 0 10px 36px;
-}
-
-/* section loisirs */
-
-
+     @font-face /* police et paragraphe */
+    {
+     font-family: 'Asap', sans-serif;
+    }
 
 
 /* container */
 
-.contener
-{
-display: flex;
-}
+     #container
+    {
+     display: flex;
+    }
 
-/* dimention et couleur du coldroit */
+     #box--2 /* dimention et couleur du coldroit */
 
-.coldroit
-{
+    {
+     width: 954px;
+     height: 1280px;
+     background-color: #ffffff; 
+    }
 
-width: 980px;
-height: 1280px;
-background-color: #ffffff; 
-}
-
-/* dimension et couleur du sidebare/colgauche */
-
-.sidebar
-{
+    #box--1 /* dimension et couleur du aside/colgauche */
+   {
+    width: 326px;
+    height: 1280px;
+    background-color: #FFCA28;
+   }
+/* fin du container */
 
 
-width: 384px;
-height: 1280;
-background-color: #FFCA28; 
-}
 
-#A-PROPOS p, #CONTACT p
-{
+/* les sections dans le "aside"*/
 
+   .user-photo /* photo cercle et bordure jaune */
+   {
+    border-radius: 50%;
+    margin: 40px 60px 40px 60px;
+    border: 3px solid #B88C1F;
+    width: 200px;
+    height: 200px;
+   }
+
+    #A-PROPOS p, #CONTACT p /* pharagraphe */
+   {
     text-align: justify;
     margin: 20px;
     margin-top: 0px;
     margin-right: 20px;
     margin-bottom: 0px;
     margin-left: 20px;
+   }
 
+   .Titre-bloc, h2 /* couleur du titre jaune sur fond gris */
+  {
+   background-color: #37474F;
+   color: #FFCA28;
+   padding: 15px 0px 15px 0px; /* espace en largeur et hauteur dans le contenu */
+   margin-bottom: 18px;
+   text-align: center;
+  }
 
+  #LOISIRS /* modifier la hauteur de la section pour plus de place en bas d'a propos */
+ {
+  text-align: justify;
+  margin: 60px;
+  margin-top: 165px;
+  margin-right: -10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+ }
+
+ #A-PROPOS
+{
+ margin-top: -5px;
 }
 
+   #CONTACT
+   {
+    margin-top: -10px;
+   }
 
-#formations
 
-{
+   .far, .fas /* icon's modifications */
+  {
+    font-weight: 400;
+    margin-right: 10px;
+    color: #FFCA28;
+  }
 
+     #LOISIRS p i    /* icon's */
+    {
+      font-size: 28px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      padding: 5%;
+
+      margin-right: 1%;
+      margin-left: 8%;
+      border: 1px solid black;
+      color: black;
+    }
+
+/* fin du "Aside" */
+
+
+
+/* sections dans les Articles */
+
+
+    .span-un
+    {
+     color: #FFCA28
+    }
+
+    #formations /* emplacement du titre */
+   {
     margin-top: 100px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-left: 70px;
     margin-right: 70px;
     color: black;
+   }
 
-}
-
-#experiences
-
-{
-
+    #experiences /* emplacement du titre */
+   {
     margin-top: 60px;
     margin-bottom: 20px;
     margin-left: 70px;
     margin-right: 70px;
     color: black;
+   }
 
-}
-
-#recommandations
-
-{
-
-    margin-top: 40px;
+    #recommandations /* emplacement du titre */
+   {
+    margin-top: 107px;
     margin-bottom: 20px;
     margin-left: 70px;
     margin-right: 70px;
     color: black;
+   }
 
-}
-
-
-
-#LOISIRS /* modifier la hauteur de la section pour plus de place en bas d'a propos */
-{
-    text-align: justify;
-    margin: 20px;
-    margin-top: 180px;
-    margin-right: -10px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-}
-
-
-#A-PROPOS
-{
-
- margin-top: 10px;
-
-}
-
-
-
-
-/* "dév javascript / hauteur et police avec le surline jaune "*/
-
-header p
-{
-
-    font-weight: bold;
-    margin-top: 120px;
-    margin-left: 38px;
-    margin-bottom: 100px;
-    margin-right: 70px;
-}
-
-
-
-
-
-header
-
-{
-
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 70px;
-    margin-right: 70px;
-
-}
-
-
-
-/* surline jaune*/
-
-.sur-title
-{
-
-    border-top: 2px #FFCA28 solid;
-
-    border-top-color: rgb(255, 202, 40);
-    border-top-style: solid;
-    border-top-width: 2px;
-    width: 100px;
-    margin-top: -114px;
-    margin-bottom: -20px;
-    margin-left: 38px;
-
-}
-
-/* les sections du coldroit */
-.sur-titlee
-{
-
-    border-top: 2px #FFCA28 solid;
-
-    border-top-color: rgb(255, 202, 40);
-    border-top-style: solid;
-    border-top-width: 3px;
-    width: 100%;
-    margin-top: 10px;
-
-}
-
-
-.row
-{
-display: flex;
-
-} 
-
-/* bloc's modifications */
-
-.bloc-1
-{
-    margin-top: 15px;
-    width: 30%;
-
-
-}
-
-
-
-.bloc-2
-{
-    margin-top: 15px;
-    width: 50%;
-
-
-}
-
-.bloc-3
-{
-    margin-top: 15px;
-    width: 30%;
-
-}
-
-.bloc-4
-{
-
-    width: 50%;
-
-
-}
-
-
-.bloc-5
-{
-    margin-top: 15px;
-    width: 30%;
-
-
-}
-
-.bloc-6
-{
-    margin-top: 15px;
-    width: 50%;
-
-
-}
-
-.bloc-7
-{
-    margin-top: 15px;
-    width: 50%;
-
-
-}
-
-.bloc-8
-{
-    margin-top: 15px;
-    width: 50%;
-
-
-}
-
-
-
-.bloc-2 p, .bloc-3 p, .bloc-4 p, .bloc-5 p, .bloc-6 p, .bloc-7 p, .bloc-8 p
-{
-    margin-top: 15;
-    margin-bottom: 15px;
-    color: #6F6B61;
-
-
-}
-
-.bloc-2 h3, .bloc-3 h3, .bloc-4 h3, .bloc-5 h3, .bloc-6 h3, .bloc-7 h3, .bloc-8 h3
-{
-  color: #6F6B61;
-}
-/* bloc's / fin */
-
-/* icon's modifications */
-.far, .fas
-{
-
-    font-weight: 400;
-    margin-right: 10px;
-    color: #FFCA28;
-
-}
-
-h3
-{
-margin-top: 10px;
-margin-bottom: 10px;
-
-}
-
-
-h1
-{
-
-font-size: 48px;
-margin: 40px 390px -110px 36px;
-
-} 
-/* couleur jaune sur le prénom jordy */
-.span-un
-{
-  color: #FFCA28;
-} 
-
-/* position des titres/ section */
-
-.Titre-formations
-
-{
-font-size: 20px;
-
-color: black;
-} 
-
-.Titre-experiences
-
-{
-font-size: 20px;
-
-color: black;
-} 
-
-
-.Titre-recommandations
-
-{
-font-size: 20px;
-margin: 40px 390px 110px 36px;
-color: black;
-} 
-
-header, .content section
-{
-
-    margin-left: 70px;
-    margin-right: 70px;
-
-}
-
-
-
-/* icon's */
-
-#LOISIRS p i
-{
-  font-size: 28px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  padding: 5%;
-
-  margin-right: 1%;
-  margin-left: 8%;
-  border: 1px solid black;
-  color: black;
-
-}
-
-.pharagraphe
-{
-
-
-    color: #FFCA28;
-
-
-}
-
-
-
-
-
-
-
-@media screen and (max-width: 1280px) and (min-width: 1200px){
-
-
-  .pharagraphe
+   h1 /* titre */
   {
+   font-size: 48px;
+   margin: 40px 390px -110px 36px;
+  } 
 
-      display: none;
+  h3 /* titre des sections */
+ {
 
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+ }
+
+
+
+
+   header p /* "dév javascript / hauteur et police avec le surline jaune "*/
+  {
+   font-weight: bold;
+   margin-top: 120px;
+   margin-left: 38px;
+   margin-bottom: 100px;
+   margin-right: 70px;
+  }
+
+   header
+  {
+   margin-top: 100px;
+   margin-bottom: 100px;
+   margin-left: 70px;
+   margin-right: 70px;
+  }
+
+
+  .ligne--header /* surline jaune sur le header */
+ {
+   border-top: 2px #FFCA28 solid;
+   border-top-color: rgb(255, 202, 40);
+   border-top-style: solid;
+   border-top-width: 2px;
+   width: 100px;
+   margin-top: -114px;
+   margin-bottom: -20px;
+   margin-left: 38px;
+  }
+
+    .ligne--article  /* les sections du coldroit */
+     {
+      border-top: 2px #FFCA28 solid;
+      border-top-color: rgb(255, 202, 40);
+      border-top-style: solid;
+      border-top-width: 3px;
+      width: 100%;
+      margin-top: 10px;
+     }
+
+        .Titre-formations   /* position des titres/ section */
+       {
+        font-size: 20px;
+        color: black;
+       } 
+
+        .Titre-experiences
+       {
+        font-size: 20px;
+        color: black;
+       } 
+
+
+        .Titre-recommandations
+       {
+         font-size: 20px;
+         margin: 40px 390px 110px 36px;
+         color: black;
+       } 
+
+
+
+
+           #box--2, .row  /* modification des bloc's dans "article" */
+          {
+           display: flex;
+          } 
+
+
+
+           .bloc-1
+          {
+           margin-top: 15px;
+           width: 30%;
+          }
+
+
+
+          .bloc-2
+          {
+           margin-top: 15px;
+           width: 50%;
+          }
+
+          .bloc-3
+          {
+           margin-top: 15px;
+           width: 30%;
+          }
+
+          .bloc-4
+          {
+
+           width: 50%;
+          }
+
+
+           .bloc-5
+          {
+           margin-top: 15px;
+           width: 30%;
+          }
+
+           .bloc-6
+          {
+           margin-top: 15px;
+           width: 50%;
+          }
+
+           .bloc-7
+          {
+           margin-top: 15px;
+           width: 50%;
+          }
+
+           .bloc-8
+          {
+           margin-top: 15px;
+           width: 50%;
+          }
+
+
+
+           .bloc-2 p, .bloc-3 p, .bloc-4 p, .bloc-5 p, .bloc-6 p, .bloc-7 p, .bloc-8 p
+          {
+           margin-top: 15;
+           margin-bottom: 15px;
+           color: #6F6B61;
+          }
+
+           .bloc-2 h4, .bloc-3 h4, .bloc-4 h4, .bloc-5 h4, .bloc-6 h4, .bloc-7 h4, .bloc-8 h4
+          {
+           color: #6F6B61;
+           margin-bottom: 10px;
+          }
+
+          #box--2 article p span /* pour centrer le text apres la date / box--2 */
+          {
+           margin-left: 27px;
+          }
+
+
+/* fin des sections dans les "Articles" */
+
+   .pharagraphe
+  {
+    color: #FFCA28;
+  }
+
+
+
+
+
+/* adaptation pour ordinateur */
+
+@media screen and (max-width: 1200px){
+
+  body /* important : la page s'adapte à tout écran */
+  {
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    height: auto;
+  }
+
+  .container
+  {
+    display: flex;
+    align-items: stretch; /* tres important pour la hauteur des deux box's */
+  }
+
+  #box--1
+  {
+    height: auto; /* tres important pour la hauteur des deux box's */
+  }
+
+  .row  /* les bloc's sont du coté gauche */
+  {
+    display: inherit;
+  }
+
+  header, #box--2 article
+  {
+    margin-left:20px;
+    margin-right:20px;
   }
 
   #LOISIRS
   {
-    margin-bottom: 5px;
-
+    margin-top: 580px;
   }
 
+  .ligne--article
+  {
+    margin: auto;
+  }
 
 }
-
-/* adaptation pour ordinateur */
-
-@media screen and (max-width: 1200px) and (min-width: 1105px){
-
-
-
-
-   .row
-    {
-      display: inherit;
-    }
-
-
-    .sidebar
-      {
-        width: inherit;
-
-
-      }
-
-
-     .sur-titlee
-      {
-        width: 500px;
-      }
-
-      #A-PROPOS
-      {
-        margin-bottom: 550px;
-      }
-
-      #LOISIRS
-      {
-        margin-bottom: 57px;
-        margin-right: 0px;
-      }
-
-
-      .pharagraphe
-      {
-
-          display: none;
-
-      }
-
-
-
-
-
-
-}
-
-
-/* break-point */
-
-@media screen and (max-width: 1105px) and (min-width: 992px){
-
-
-
-
-    .row
-    {
-      display: inherit;
-
-    }
-
-
-    .sidebar
-      {
-        width: inherit;
-
-      }
-
-
-
-
-      .sur-titlee
-      {
-        width: 300px;
-      }
-
-
-      #A-PROPOS
-      {
-        margin-bottom: 550px;
-      }
-
-      #LOISIRS
-      {
-        margin-bottom: 57px;
-        margin-right: 0px;
-      }
-
-      .pharagraphe
-      {
-
-          display: none;
-
-      }
-
-
-
-
-
-
-
-}
-
-
-/* format ipad/bloc note */
-
-
-@media screen and (max-width: 992px) and (min-width: 768px) {
-
-
-
-
-    .row
-    {
-      display: inherit;
-    }
-
-
-
-
-
-    .sidebar
-      {
-        width: inherit;
-
-      }
-
-
-      .sur-titlee
-      {
-        width: 400px;
-      }
-
-
-      #A-PROPOS
-      {
-        margin-bottom: 550px;
-      }
-
-      #LOISIRS
-      {
-        margin-bottom: 57px;
-        margin-right: 0px;
-      }
-
-      .pharagraphe
-      {
-
-          display: none;
-
-      }
-
-
-
-
-
-
-}
-
 
 /* adaptation pour différents tablettes et mobiles */
+@media all and (max-width: 720px){
 
-
-@media screen and (max-width: 768px) and (min-width: 320px) {
-
-
-body /* important : la page s'adapte à tout écran */
-{
-  width: auto;
-  margin-right: 0px;
-  margin-left: 0px;
-}
-
-
-
-
-  .contener, .row /* page vertical */
-    {
-      display: inherit;
-      text-align: center;
-    }
-
-
-    .sidebar, .coldroit
-    {
-      display: inherit;
-      text-align: center;
-      width: auto;
-    }
-
-    header /* pour que le haute de la page avec pour titre jord tshoms disparer */
-    {
-      display: none;
-    }
-
-    #CONTACT p /* pour centre les pharagraphe */
-    {
-      text-align: center;
-      padding-top: 20px;
-    }
-
-    #LOISIRS p i /* pour centrer les icon's */
-    {
-
-      text-align: justify;
-      width: auto;
-      margin-left: 70px;
-      margin-bottom: 20px;
-    }
-
-
-
-
-    .bloc-2 p, .bloc-3 p, .bloc-4 p, .bloc-5 p, .bloc-6 p, .bloc-7 p, .bloc-8 p /* pour centrer les blocs/ sections */
-    {
-        text-align: left;
-        padding-left: 100px;
-        width: 100%;
-
-
-    }
-
-    #formations h3, #experiences h3 /* pour centrer les titres/h3 */
-    {
-
-      margin-left: 140px;
-        width: 100%;
-
-
-    }
-
-    .photo p
-    {
-
-      width: 70%;
-      font-size: 1em;
-      margin-bottom: 20px;
-
-
-    }
-
-    .sur-titlee
-    {
-      width: auto;
-    }
-
-/*
-    #LOISIRS p i /* pour centrer les icon's
-    {
-      text-align: center;
-
-      margin-left: 70px;
-      margin-bottom: 20px;
-    }
-
-*/  /* NE PAS OUBLIER DE FAIRE UN BREAK-POINT  POUR LES INCON'S SUR #LOISIRS!!!! */
-
-
-.coldroit section p
+  #container, .row  /* pour que l'axe de direction soit vertical */
   {
-    font-size: smaller;
-    margin-left:10px;
-    margin-right:10px;
-    text-align:center;
+    display: inherit;
+  }
+
+  header
+  {
+    display: none;
+  }
+
+  #box--1
+  {
+    width: auto;
+  }
+
+  #box--2
+  {
+    width: auto;
   }
 
 
 
+  #CONTACT p
+  {
+    text-align: center;
+  }
 
+  #A-PROPOS
+  {
+  margin-bottom: -450px;
+  }
 
+  #LOISIRS
+  {
+  margin-top: 470px;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
+  }
 
+  h3
+  {
+    text-align: center;
+    margin-top: 10px;
+  }
+/*
+  #box--2 p
+  {
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+  }
+
+  #formations
+  {
+      margin-top: 20px;
+  }
+
+*/
+/*
+  .bloc-2 p, .bloc-3 p, .bloc-4 p, .bloc-5 p, .bloc-6 p, .bloc-7 p, .bloc-8 p /* pour centrer les blocs/ sections
+   {
+      /* text-align: center;
+       padding-left: 100px;
+       width: 100%;
+   }
+
+*/
 
 }
-
-/* break-point mobile */
-/*
-@media screen and (max-width: 703px) and (min-width: 0px) {
-
-
-
-
-
-  .bloc-2 p, .bloc-3 p, .bloc-4 p, .bloc-5 p, .bloc-6 p, .bloc-7 p, .bloc-8 p /* pour centrer les blocs/ sections */
-  {
-      text-align: inherit;
-      padding-left: 100px;
-      width: 100%;
-
-
-  }
-
-  .pharagraphe
-  {
-
-      font-size: 30px;
-      color: black;
-      margin-left:  30px;
-      margin-bottom: 30px;
-
-  }
-
-
-  .span
-  {
-      color: black;
-
-  }
-
-
-
-
-
-
-
-
-
-
-}
-
-/*
