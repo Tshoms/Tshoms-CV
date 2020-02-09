@@ -3,6 +3,7 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>jordy tshoms</title>
 <link rel="stylesheet" href="css/style.css">
 <!-- mon kit accessoir -->
@@ -12,35 +13,21 @@
 </head>
 <body>
 <!-- structure du site  -->
-<div class="contener">
-<!-- colgauche  = sidebar -->
+<main id="container">
+<!-- début du "Aside" -->
 
-  <div class="sidebar">
+  <aside id="box--1">
 
 <!-- photo -->
+<div id="photo">
 
-   <div class="photo">
+<center><img class="user-photo"  src="img/tshoms.jpeg"></center>
+<div class="pharagraphe">
 
-     <p>
-       <center><img class="petite-photo"  src="img/tshomscercle.png"></center>
-       
-     </p>
+  <p><span class="surname">Dev/Web</span>Tshoms Jordy</p>
 
-
-      </div>
-
-<!-- pharagraphe -->
-      <div class="pharagraphe">
-
-        <p>
-             <span>Jordy Tshoms</span><br>
-             <span>Développeur javascrypt</span>
-
-        </p>
-
-
-         </div>
-
+</div>
+</div>
 
 <!-- bloc/contact -->
 
@@ -72,85 +59,85 @@
       <i class="fas fa-bible"></i></p>
 
       </section>
-  </div>
+    </aside>
 
-<!-- fin du sidebar -->
+<!-- fin du "Aside" -->
 
+<!--  début du "Article" -->
 
-<!--  début du coldroit/le corps de la page -->
-
-    <div class="coldroit">
+<article id="box--2">
 <!-- tete du site -->
-<header>
+  <header>
       <h1><span class="span-un">JORDY </span>TSHOMS</h1>
         <p>Développeur javascript</p><br>
-        <div class="sur-title"></div>
-</header>
+        <div class="ligne--header"></div>
+  </header>
 <!-- bloc/formations -->
 
-      <section id="formations">
-     <h2 class="Titre-formations"><i class="fas fa-graduation-cap">  </i>FORMATION</h2>
-     <div class="sur-titlee"></div>
+      <article id="formations">
+     <h3 class="Titre-formations"><i class="fas fa-graduation-cap">  </i>FORMATION</h3>
+     <div class="ligne--article"></div>
 <!-- bloc 1-2 -->
   <div class="row">
      <div class="bloc-3">
         <p><i class="far fa-dot-circle"> </i>
-        A ce jour<br>
-        Paris</p>
+        2019-2020<br>
+        <span>Paris</span></p>
 
      </div>
      <div class="bloc-2">
-       <h3>OPENCLASSROOMS</h3>
+       <h4>OPENCLASSROOMS</h4>
        <p>Etudiant Développeur Web </p>
        <p>Assemblage de pages en HTML5 et CSS3 à partir de
-         maquettes graphiques. Respecter les normes d’accessibilité et de référencement du W3C, utiliser le langage javascrypt coté fron-end et coté back-end nodes.js </p>
+         maquettes graphiques. Respecter les normes d’accessibilité et de référencement du W3C, utiliser le langage javascrypt coté front-end et coté back-end nodes.js </p>
+     </div>
+   </div>
+
+
+
+
+  <!-- bloc 3-4 -->
+
+    <div class="row">
+
+      <div class="bloc-3">
+        <p><i class="fas fa-circle"> </i>2019-2020<br>
+        <span>Paris</span></p>
+
+       </div>
+
+      <div class="bloc-4">
+       <h4>l'ecole 42</h4>
+         <p>la picine de l'école 42 (1 mois) dimersion à l'école dans le but d'étre initier à la programmation et l'algoritmie avec le langage C dans le but d'intégrer l'école 42 et avoir des compétences solide dans le monde du travaille.</p>
+        </div>
      </div>
 
-  </div>
+  </article>
 
 
-<!-- bloc 3-4 -->
-  <div class="row">
+<!-- bloc/expériences -->
 
-    <div class="bloc-3">
-      <p><i class="fas fa-circle"> </i>2019-2020</p>
-      <p>    Paris</p>
-
-     </div>
-
-    <div class="bloc-4">
-     <h3>l'ecole 42</h3>
-       <p>la picine de l'école 42 (1 mois) dimersion à l'école dans le but d'étre initier à la programmation et l'algoritmie avec le langage C dans le but d'intégrer l'école 42 et avoir des compétences solide dans le monde du travaille.</p>
-      </div>
-
- </div>
-</section>
-
-
-    <!-- bloc/expériences -->
-
-     <section id="experiences">
-       <h2 class="Titre-experiences"><i class="fas fa-briefcase">  </i>EXPERIENCES PROFESSIONNELLE</h2>
-       <div class="sur-titlee"></div>
+     <article id="experiences">
+       <h3 class="Titre-experiences"><i class="fas fa-briefcase">  </i>EXPERIENCES PROFESSIONNELLE</h3>
+       <div class="ligne--article"></div>
        <div class="row">
        <div class="bloc-5">
-       <p><i class="far fa-dot-circle"> </i>2019<br>créteil</p>
+       <p><i class="far fa-dot-circle"> </i>2019-2020<br><span>créteil</span></p>
        </div>
 
        <div class="bloc-6">
-       <h3>T-digital</h3>
+       <h4>T-digital</h4>
        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
      </div>
-   </section>
-      <!-- bloc 3-4 -->
+   </article>
 
-<!-- bloc/recommandations -->
+      <!-- bloc/recommandations -->
 
-    <section id="recommandations">
-      <h2 class="Titre-recommandations"><i class="fas fa-pencil-alt">  </i>RECOMMANDATIONS</h2>
-      <div class="sur-titlee"></div>
+    <article id="recommandations">
+      <h3 class="Titre-recommandations"><i class="fas fa-pencil-alt">  </i>RECOMMANDATIONS</h3>
+      <div class="ligne--article"></div>
     <div class="row">
       <div class="bloc-7">
          <p>Tshoms Jordy</p>
@@ -167,14 +154,12 @@
             </p>
         </div>
        </div>
-      </section>
+     </article>
+  </article>
 
-     </div>
+<!-- fin du coldroit/ article -->
+  </main>
 
-
-  </div>
-
-
-</body>
+ </body>
 
 </html>

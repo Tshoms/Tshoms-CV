@@ -81,7 +81,7 @@
   text-align: justify;
   margin: 60px;
   margin-top: 165px;
-  margin-right: -10px;
+  margin-right: 0px;
   margin-bottom: 10px;
   margin-left: 0px;
  }
@@ -318,11 +318,10 @@
 
 /* fin des sections dans les "Articles" */
 
-   .pharagraphe
-  {
-    color: #FFCA28;
-  }
-
+.pharagraphe
+{
+ display:none;
+}
 
 
 
@@ -345,6 +344,8 @@
     align-items: stretch; /* tres important pour la hauteur des deux box's */
   }
 
+
+
   #box--1
   {
     height: auto; /* tres important pour la hauteur des deux box's */
@@ -352,7 +353,7 @@
 
   .row  /* les bloc's sont du coté gauche */
   {
-    display: inherit;
+    display:inherit;
   }
 
   header, #box--2 article
@@ -360,6 +361,7 @@
     margin-left:20px;
     margin-right:20px;
   }
+
 
   #LOISIRS
   {
@@ -374,11 +376,45 @@
 }
 
 /* adaptation pour différents tablettes et mobiles */
-@media all and (max-width: 720px){
+@media screen and (max-width: 720px){
 
-  #container, .row  /* pour que l'axe de direction soit vertical */
+/* option 1*/
+  body /* important : la page s'adapte à tout écran*/
+  {
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    height: auto;
+  }
+
+  #container, .row  /* pour que l'axe de direction soit vertical*/
   {
     display: inherit;
+  }
+
+  .row
+  {
+    display:inline;
+    /*display:inline-table;*/
+text-align: center;
+font-size: 1em;
+
+    font-stretch:extra-expanded;
+    /*width: 100%;*/
+
+  }
+
+  #box--2
+  {
+    width: auto;
+
+
+  }
+
+  #box--1
+  {
+    width: auto;
+
   }
 
   header
@@ -386,62 +422,89 @@
     display: none;
   }
 
-  #box--1
+  .pharagraphe
+ {
+   display: block;
+   color: white;
+   padding-bottom: 25px;
+   text-align:center !important;
+ }
+
+.surname
+{
+  color: black;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align:center !important;
+  padding-top: -10px;
+}
+
+p
+{
+ text-align:center !important;
+}
+
+  h3
   {
-    width: auto;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+  h4
+  {
+    font-style: oblique;
+    font-weight: bold;
+
+
   }
 
-  #box--2
+
+  #box--2 p
   {
-    width: auto;
+    text-align: center;
+    margin-right: -80px;  /* important : pour que le text soit bien répartie!!! */
+    margin-left: -80px;  /* important : pour que le text soit bien répartie!!! */
+
   }
 
-
+  .bloc-2, .bloc-3, .bloc-4, .bloc-5, .bloc-6, .bloc-7, .bloc-8 /* important!!!: pour centrer les bloc's */
+  {
+    padding-left: 75px;
+  }
 
   #CONTACT p
   {
     text-align: center;
   }
 
-  #A-PROPOS
+  #A-PROPOS /* la hauteur */
   {
   margin-bottom: -450px;
   }
 
-  #LOISIRS
+  #LOISIRS /* la hauteur */
   {
   margin-top: 470px;
-  padding-bottom: 20px;
-  margin-bottom: 5px;
+  padding-bottom: 10px;
+
   }
 
-  h3
+  #LOISIRS p
   {
-    text-align: center;
-    margin-top: 10px;
+  margin-left: -30px;
   }
-/*
-  #box--2 p
+
+
+
+  #formations /* la hauteur */
   {
-    text-align: center;
-    font-size: 1em;
-    width: 100%;
+  margin-top: 30px;
+
   }
 
-  #formations
+  #recommandations /* la hauteur */
   {
-      margin-top: 20px;
+  margin-top: 30px;
   }
-
-*/
-/*
-  .bloc-2 p, .bloc-3 p, .bloc-4 p, .bloc-5 p, .bloc-6 p, .bloc-7 p, .bloc-8 p /* pour centrer les blocs/ sections
-   {
-      /* text-align: center;
-       padding-left: 100px;
-       width: 100%;
-   }
-
-*/
 
 }
