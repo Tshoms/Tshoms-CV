@@ -80,7 +80,7 @@
  {
   text-align: justify;
   margin: 60px;
-  margin-top: 165px;
+  margin-top: 305px;
   margin-right: 0px;
   margin-bottom: 10px;
   margin-left: 0px;
@@ -160,6 +160,7 @@
    h1 /* titre */
   {
    font-size: 48px;
+   color: black;
    margin: 40px 390px -110px 36px;
   } 
 
@@ -344,9 +345,7 @@
     align-items: stretch; /* tres important pour la hauteur des deux box's */
   }
 
-
-
-  #box--1
+   #box--1
   {
     height: auto; /* tres important pour la hauteur des deux box's */
   }
@@ -373,10 +372,122 @@
     margin: auto;
   }
 
+  #recommandations /* la hauteur */
+  {
+  margin-top: 30px;
+  }
+
+
+}
+
+@media screen and (max-width: 720px){
+
+  body /* important : la page s'adapte à tout écran*/
+  {
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    height: auto;
+  }
+
+  #container, .row  /* pour que l'axe de direction soit vertical*/
+  {
+    display: inherit;
+  }
+
+  header
+  {
+    display: none;
+  }
+
+  .pharagraphe
+  {
+   display: block;
+   color: white;
+   padding-bottom: 25px;
+   text-align:center !important;
+  }
+
+  .surname
+  {
+   color: black;
+   font-size: 2em;
+   text-transform: uppercase;
+   text-align:center !important;
+   padding-top: -10px;
+  }
+
+  #box--1, #box--2
+  {
+    width: auto;
+
+  }
+
+  h3
+  {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+
+  #box--2 p
+  {
+    text-align: center;
+    margin-right: -100px;  /* important : pour que le text soit bien répartie!!! */
+    margin-left: -100px;  /* important : pour que le text soit bien répartie!!! */
+  }
+
+
+  .row
+  {
+    display:inline;
+    text-align: center;
+    font-size: 1em;
+    font-stretch:extra-expanded;
+  }
+
+  #CONTACT p
+  {
+    text-align: center;
+  }
+
+  #LOISIRS /* la hauteur */
+  {
+  margin-top: 70px;
+  padding-bottom: 10px;
+
+  }
+
+  #A-PROPOS p
+  {
+  text-align: center;
+  }
+
+  #LOISIRS p
+  {
+  margin-left: 20px;
+  }
+
+  #formations /* la hauteur */
+  {
+  margin-top: 30px;
+  }
+
+  #recommandations /* la hauteur */
+  {
+  padding-bottom: 0px;
+  }
+
+
+  .bloc-2, .bloc-3, .bloc-4, .bloc-5, .bloc-6, .bloc-7, .bloc-8 /* important!!!: pour centrer les bloc's */
+  {
+    padding-left: 100px;
+  }
+
 }
 
 /* adaptation pour différents tablettes et mobiles */
-@media screen and (max-width: 720px){
+@media screen and (max-width: 400px){
 
 /* option 1*/
   body /* important : la page s'adapte à tout écran*/
@@ -396,10 +507,9 @@
   {
     display:inline;
     /*display:inline-table;*/
-text-align: center;
-font-size: 1em;
-
-    font-stretch:extra-expanded;
+   text-align: center;
+   font-size: 1em;
+   font-stretch:extra-expanded;
     /*width: 100%;*/
 
   }
@@ -407,14 +517,11 @@ font-size: 1em;
   #box--2
   {
     width: auto;
-
-
   }
 
   #box--1
   {
     width: auto;
-
   }
 
   header
