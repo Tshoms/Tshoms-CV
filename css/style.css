@@ -44,8 +44,6 @@
    }
 /* fin du container */
 
-
-
 /* les sections dans le "aside"*/
 
    .user-photo /* photo cercle et bordure jaune */
@@ -150,10 +148,7 @@
   border: 1px solid black;
 }
 
-
 /* fin du "Aside" */
-
-
 
 /* sections dans les Articles */
 
@@ -205,10 +200,7 @@
   font-size: 26px;
  }
 
-
-
-
-   header p /* "dév javascript / hauteur et police avec le surline jaune "*/
+  header p /* "dév javascript / hauteur et police avec le surline jaune "*/
   {
    font-weight: bold;
    margin-top: 120px;
@@ -232,7 +224,7 @@
    border-top-color: rgb(255, 202, 40);
    border-top-style: solid;
    border-top-width: 2px;
-   width: 100px;
+   width: 50px;
    margin-top: -114px;
    margin-bottom: -20px;
    margin-left: 38px;
@@ -294,43 +286,43 @@
            width: 30%;
           }
 
-           .bloc-6
-          {
-           margin-top: 15px;
-           width: 50%;
-          }
+  .bloc-6
+ {
+  margin-top: 15px;
+  width: 50%;
+ }
 
-           .bloc-7
-          {
-           margin-top: 15px;
-           width: 50%;
-          }
+  .bloc-7
+ {
+   margin-top: 15px;
+   width: 50%;
+ }
 
-           .bloc-8
-          {
-           margin-top: 15px;
-           width: 50%;
-          }
+  .bloc-8
+  {
+   margin-top: 15px;
+   width: 50%;
+  }
 
 
 
-           .bloc-2 p, .bloc-3 p, .bloc-4 p, .bloc-5 p, .bloc-6 p, .bloc-7 p, .bloc-8 p
-          {
-           margin-top: 15;
-           margin-bottom: 15px;
-           color: #6F6B61;
-          }
+.bloc-2 p, .bloc-3 p, .bloc-4 p, .bloc-5 p, .bloc-6 p, .bloc-7 p, .bloc-8 p
+{
+  margin-top: 15;
+  margin-bottom: 15px;
+  color: #6F6B61;
+}
 
-           .bloc-2 h4, .bloc-3 h4, .bloc-4 h4, .bloc-5 h4, .bloc-6 h4, .bloc-7 h4, .bloc-8 h4
-          {
-           color: #6F6B61;
-           margin-bottom: 10px;
-          }
+.bloc-2 h4, .bloc-3 h4, .bloc-4 h4, .bloc-5 h4, .bloc-6 h4, .bloc-7 h4, .bloc-8 h4
+{
+ color: #6F6B61;
+ margin-bottom: 10px;
+}
 
-          #box--2 article p span /* pour centrer le text apres la date / box--2 */
-          {
-           margin-left: 27px;
-          }
+#box--2 article p span /* pour centrer le text apres la date / box--2 */
+{
+  margin-left: 27px;
+}
 
 
 /* fin des sections dans les "Articles" */
@@ -371,7 +363,7 @@
     display:inherit;
   }
 
-  header, #box--2 article
+  header, #box--2 section
   {
     margin-left:20px;
     margin-right:20px;
