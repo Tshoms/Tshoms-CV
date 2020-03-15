@@ -28,8 +28,7 @@
      display: flex;
     }
 
-     #box--2 /* dimention et couleur du coldroit */
-
+    #box--2 /* dimention et couleur du coldroit */
     {
      width: 954px;
      height: 1280px;
@@ -94,7 +93,6 @@
  margin-top: -10px;
 }
 
-
 .far, .fas /* icon's modifications*/
 {
  margin-right: 10px;
@@ -106,7 +104,6 @@
  display: flex;
  justify-content: space-around;
 }
-
 
 .fa-basketball-ball  /* important / pour centrer les icons */
 {
@@ -304,8 +301,6 @@
    width: 50%;
   }
 
-
-
 .bloc-2 p, .bloc-3 p, .bloc-4 p, .bloc-5 p, .bloc-6 p, .bloc-7 p, .bloc-8 p
 {
   margin-top: 15;
@@ -324,16 +319,12 @@
   margin-left: 27px;
 }
 
-
 /* fin des sections dans les "Articles" */
 
 .pharagraphe
 {
  display:none;
 }
-
-
-
 
 /* adaptation pour ordinateur */
 
@@ -384,8 +375,6 @@
   {
   margin-top: 30px;
   }
-
-
 }
 
 @media screen and (max-width: 720px){
@@ -406,10 +395,7 @@
   .user-photo
   {
    margin-left: 35%;
-   /*margin-right:50%;*/
-
   }
-
 
   header
   {
@@ -436,7 +422,6 @@
   #box--1, #box--2
   {
     width: auto;
-
   }
 
   h3
@@ -452,7 +437,6 @@
     margin-right: -100px;  /* important : pour que le text soit bien répartie!!! */
     margin-left: -100px;  /* important : pour que le text soit bien répartie!!! */
   }
-
 
   .row
   {
@@ -494,7 +478,6 @@
   padding-bottom: 0px;
   }
 
-
   .bloc-2, .bloc-3, .bloc-4, .bloc-5, .bloc-6, .bloc-7, .bloc-8 /* important!!!: pour centrer les bloc's */
   {
     padding-left: 100px;
@@ -521,20 +504,15 @@
 
   .row
   {
-    display:inline;
-    /*display:inline-table;*/
+   display:inline;
    text-align: center;
    font-size: 1em;
    font-stretch:extra-expanded;
-    /*width: 100%;*/
-
   }
 
   .user-photo
   {
    margin-left: 26%;
-   /*margin-right:50%;*/
-
   }
 
   #box--2
@@ -580,21 +558,18 @@ p
     margin-top: 10px;
     font-size: 1.5em;
   }
+
   h4
   {
     font-style: oblique;
     font-weight: bold;
-
-
   }
-
 
   #box--2 p
   {
     text-align: center;
     margin-right: -80px;  /* important : pour que le text soit bien répartie!!! */
     margin-left: -80px;  /* important : pour que le text soit bien répartie!!! */
-
   }
 
   .bloc-2, .bloc-3, .bloc-4, .bloc-5, .bloc-6, .bloc-7, .bloc-8 /* important!!!: pour centrer les bloc's */
@@ -624,19 +599,15 @@ p
   margin-left: -30px;
   }
 
-
-
   #formations /* la hauteur */
   {
   margin-top: 30px;
-
   }
 
   #recommandations /* la hauteur */
   {
   margin-top: 30px;
   }
-
 }
 
 /* break-point mobile */
