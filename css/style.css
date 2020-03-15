@@ -83,15 +83,15 @@
   margin-left: 0px;
  }
 
-#a-propos
-{
- margin-top: -5px;
-}
+ #a-propos /* modifier la hauteur de la section  */
+ {
+  margin-top: -5px;
+ }
 
-#contact
-{
- margin-top: -10px;
-}
+ #contact /* modifier la hauteur de la section  */
+ {
+  margin-top: -10px;
+ }
 
 .far, .fas /* icon's modifications*/
 {
@@ -149,7 +149,6 @@
 
 /* sections dans les Articles */
 
-
     .span-un
     {
      color: #FFCA28
@@ -189,13 +188,13 @@
    margin: 40px 390px -110px 36px;
   } 
 
-  h3 /* titre des sections */
- {
+   h3 /* titre des sections */
+  {
 
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 26px;
- }
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-size: 26px;
+  }
 
   header p /* "dév javascript / hauteur et police avec le surline jaune "*/
   {
@@ -227,61 +226,61 @@
    margin-left: 38px;
   }
 
-    .ligne--article  /* les sections du coldroit */
-     {
-      border-top: 2px #FFCA28 solid;
-      border-top-color: rgb(255, 202, 40);
-      border-top-style: solid;
-      border-top-width: 3px;
-      width: 100%;
-      margin-top: 10px;
-     }
+  .ligne--article  /* les sections du coldroit */
+ {
+  border-top: 2px #FFCA28 solid;
+  border-top-color: rgb(255, 202, 40);
+  border-top-style: solid;
+  border-top-width: 3px;
+  width: 100%;
+  margin-top: 10px;
+ }
 
-        .Titre   /* position des titres/ section */
-       {
-        font-size: 26px;
-        color: black;
-       } 
+  .Titre   /* position des titres/ section */
+  {
+   font-size: 26px;
+   color: black;
+  } 
 
-         #box--2, .row  /* modification des bloc's dans "article" */
-          {
-           display: flex;
-          } 
-
-
-
-           .bloc-1
-          {
-           margin-top: 15px;
-           width: 30%;
-          }
+   #box--2, .row  /* modification des bloc's dans "article" */
+  {
+   display: flex;
+  } 
 
 
 
-          .bloc-2
-          {
-           margin-top: 15px;
-           width: 50%;
-          }
-
-          .bloc-3
-          {
-           margin-top: 15px;
-           width: 30%;
-          }
-
-          .bloc-4
-          {
-           margin-top: 15px;
-           width: 50%;
-          }
+  .bloc-1
+  {
+    margin-top: 15px;
+    width: 30%;
+  }
 
 
-           .bloc-5
-          {
-           margin-top: 15px;
-           width: 30%;
-          }
+
+  .bloc-2
+  {
+   margin-top: 15px;
+   width: 50%;
+  }
+
+  .bloc-3
+ {
+  margin-top: 15px;
+  width: 30%;
+ }
+
+  .bloc-4
+  {
+   margin-top: 15px;
+   width: 50%;
+  }
+
+
+  .bloc-5
+  {
+   margin-top: 15px;
+   width: 30%;
+  }
 
   .bloc-6
  {
@@ -379,14 +378,6 @@
 
 @media screen and (max-width: 720px){
 
-  body /* important : la page s'adapte à tout écran*/
-  {
-    width: auto;
-    margin-right: 0px;
-    margin-left: 0px;
-    height: auto;
-  }
-
   #container, .row  /* pour que l'axe de direction soit vertical*/
   {
     display: inherit;
@@ -482,20 +473,10 @@
   {
     padding-left: 100px;
   }
-
 }
 
 /* adaptation pour différents tablettes et mobiles */
 @media screen and (max-width: 425px){
-
-/* option 1*/
-  body /* important : la page s'adapte à tout écran*/
-  {
-    width: auto;
-    margin-right: 0px;
-    margin-left: 0px;
-    height: auto;
-  }
 
   #container, .row  /* pour que l'axe de direction soit vertical*/
   {
@@ -513,16 +494,6 @@
   .user-photo
   {
    margin-left: 26%;
-  }
-
-  #box--2
-  {
-    width: auto;
-  }
-
-  #box--1
-  {
-    width: auto;
   }
 
   header
@@ -547,10 +518,10 @@
   padding-top: -10px;
 }
 
-p
-{
- text-align:center !important;
-}
+  p
+ {
+  text-align:center !important;
+ }
 
   h3
   {
@@ -613,12 +584,10 @@ p
 /* break-point mobile */
 @media screen and (max-width: 375px){
 
-  .user-photo
-  {
-   margin-left: 23%;
-   /*margin-right:50%;*/
-
-  }
+.user-photo
+ {
+  margin-left: 23%;
+ }
 }
 
 /* break-point mobile */
@@ -627,7 +596,5 @@ p
   .user-photo
   {
    margin-left: 17%;
-   /*margin-right:50%;*/
-
   }
 }
