@@ -105,6 +105,12 @@
  justify-content: space-around;
 }
 
+.city
+{
+ display: flex;
+ margin-left: 27px;
+}
+
 .fa-basketball-ball  /* important / pour centrer les icons */
 {
   height: 50px;
@@ -188,9 +194,8 @@
    margin: 40px 390px -110px 36px;
   } 
 
-   h3 /* titre des sections */
+   h3 /*titre des sections*/
   {
-
    margin-top: 10px;
    margin-bottom: 10px;
    font-size: 26px;
@@ -247,15 +252,11 @@
    display: flex;
   } 
 
-
-
   .bloc-1
   {
-    margin-top: 15px;
-    width: 30%;
+   margin-top: 15px;
+   width: 30%;
   }
-
-
 
   .bloc-2
   {
@@ -300,14 +301,15 @@
    width: 50%;
   }
 
-.bloc-2 p, .bloc-3 p, .bloc-4 p, .bloc-5 p, .bloc-6 p, .bloc-7 p, .bloc-8 p
+.bloc-1 p.bloc-2 p, .bloc-3 p, .bloc-4 p, .bloc-5 p, .bloc-6 p, .bloc-7 p, .bloc-8 p
 {
   margin-top: 15;
   margin-bottom: 15px;
   color: #6F6B61;
 }
 
-.bloc-2 h4, .bloc-3 h4, .bloc-4 h4, .bloc-5 h4, .bloc-6 h4, .bloc-7 h4, .bloc-8 h4
+ .bloc-1 h4, .bloc-2 h4 .bloc-3 h4, .bloc-4 h4, .bloc-5 h4, .bloc-6 h4, .bloc-7 h4, .bloc-8 h4
+
 {
  color: #6F6B61;
  margin-bottom: 10px;
@@ -543,12 +545,18 @@
     margin-left: -80px;  /* important : pour que le text soit bien répartie!!! */
   }
 
+  .city
+  {
+    display: flex;
+    margin-left: 105px;
+  }
+
   .bloc-2, .bloc-3, .bloc-4, .bloc-5, .bloc-6, .bloc-7, .bloc-8 /* important!!!: pour centrer les bloc's */
   {
     padding-left: 75px;
   }
 
-  #contact p
+#contact p
   {
     text-align: center;
   }
